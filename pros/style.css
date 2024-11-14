@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #080808;
+    color: #fff;
+    line-height: 1.7;
+    padding: 0;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    padding: 40px 15%;
+    text-align: center;
+}
+
+    header p {
+        line-height: 30px;
+        padding: 30px 50px;
+        color: #ff004f;
+        font-weight: 0;
+        font-size: bold;
+
+    }
+
+    header h1{
+        padding: 20px 5%;
+        color: #ff004f;
+        font-weight: 100;
+        font-size: bold;
+        
+    }
+
+
+
+.logo{
+    width: 150px;
+    margin: 10px 0px;
+    padding: 20px 0;
+}
+.profile-image{
+    width: 450px;
+    height: auto;
+    margin-top: 10%;
+    position: absolute;
+    left: 50%;
+    margin-bottom: 60px;
+    border-radius: 50%;
+}
+.container{
+    padding: 10px 10%;
+}
+ 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-wrap: wrap;
+    padding: 2px 0%;
+    width: 90%;
+    
+    position: absolute;
+    top: 20px;
+    bottom: auto;
+    margin-right: 25px 30px;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    margin-right: 10px 10%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 6px;
+}
+
+nav ul li a:hover{
+    background: #ff004f;
+    transition: 0.5s ease;
+}
+
+
+#about{
+    margin: 80px 10px;
+    position: absolute;
+    left: 30px;
+    bottom: auto;
+    left: 550px;
+    margin-left:100px 45% ;
+    padding: 20px 90px;
+
+}
+
+.maktab{
+    width: 700px; 
+    height: auto;
+    position: absolute;
+    right: 95%;
+    margin-right: 30px 10%;
+    padding: 0px 10px ;
+    margin: 100px;
+    margin-top: 80px;
+    margin: 5px;
+
+
+}
+
+
+
+#Services{
+    padding: 700px 20%;
+    margin: 200px 20px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.services-list{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    grid-gap: 30px;
+    margin-top: 60px;
+     bottom: auto;
+    position: absolute;
+    margin-right: 180px;
+}
+.services-list div{
+    background: #262626;
+    padding: 60px;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 15px;
+    margin-left: 15px 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+.services-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    
+
+}
+.services-list div a{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.services-list div:hover{
+    background: #ff004f;
+    transform: translateY(-10px);
+
+}
+
+
+
+
+#Portfolio{
+    padding: 20px 5%;
+    margin: 50px;
+}
+.work-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 40px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.work img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    height: 100%;
+    
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(rgba(0,0,0,0),#ff004f) ;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    text-align: center;
+}
+.layer:hover{
+    background: #ff004f;
+    
+}
+.layer h3{
+    font-weight: 200;
+    margin-bottom: 15px;
+    line-height: normal;
+}
+.btn{
+    display: block;
+    margin: 20px auto;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #ff004f;
+    border: 1px solid #ff004f;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #fff;
+}
+
+
+
+.contact-left{
+    flex-basis: 30px;
+}
+.contact-right{
+    flex-basis: 30px;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+
+}
+
+
+.contact-right{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.btn.btn1{
+    display: inline-block;
+    background: #262;
+
+}
+.contact-right form{
+width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262;
+    padding: 20px;
+    margin: 15px 0;
+    color: #ff004f;
+}.btn.btn1:hover{
+    background-color: #fff;
+}
+
+
+
